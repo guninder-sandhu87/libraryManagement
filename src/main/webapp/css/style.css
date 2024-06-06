@@ -1,0 +1,46 @@
+.navbar {
+    background-color: #320373;
+    font-size: small;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: white;
+    font-size: small;
+}
+
+.navbar .navbar-brand {
+    color: white;
+    font-size: medium;
+}
+
+.navbar .btn-outline-success{
+    color:white;
+    border-color: white;
+    font-size: small;
+}
+
+.navbar .d-flex .form-control{
+    font-size: small;
+    width: 100%;
+}
+
+.navbar .navbar-toggler {
+    color: white;
+}
+
+.navbar .navbar-toggler {
+    color: transparent;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 255)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+.header{
+    background: linear-gradient(to right,rgba(0, 0, 0,0.8),rgba(0, 0, 0,0.1)),url("images/library.jpg");
+    background-size: cover;
+
+}
+
+.container .login-form{
+    background-color: #9149fc;
+}
