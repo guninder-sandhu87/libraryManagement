@@ -23,7 +23,7 @@
                     <div class="col-lg-8 offset-lg-2 mt-3">
                         <h2 style="text-align: center">Join Sandhuz Library</h2>
                         <p style="text-align: center" class="lead">Sign up for a membership or our newsletter</p>
-                        <form>
+                        <form action="register" method="post">
 
                             <div class="form-group row m-3">
                                 <label for="name" class="col-sm-2 col-form-label">Name</label>
