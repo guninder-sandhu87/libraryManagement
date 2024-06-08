@@ -15,6 +15,18 @@
     </head>
     <body>
         <%@include file="header.jsp" %>
+        <%
+                String userNotLogged= (String)session.getAttribute("user_not_logged");
+                if(userNotLogged!=null){
+         %>
+                <div class="container userNotLogged">
+                    <div class="centered">
+                        <h3 style="text-align:center;color:red"><%=userNotLogged%></h3>
+                    </div>
+                 </div>
+                <%
+                }
+           %>
 
         <div class="container login-form" >
             <div class="container inner-login" style=" color:snow;border-radius: 3px;width: 80%">
@@ -22,13 +34,13 @@
                     <div class="col-lg-8 offset-lg-2 mt-3">
                         <h2 style="text-align: center">Login</h2>
                         <p style="text-align: center" class="lead">Enter the world of books</p>
-                        <form>
+                        <form action="login" method="post">
 
 
                             <div class="form-group row m-3">
                                 <label for="email" class="col-sm-2 col-form-label text-right">Email </label>
                                 <div class="col-sm-10">
-                                    <input type="email" class="form-control" id="email" placeholder="Enter your email"
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email"
                                            required>
                                 </div>
                             </div>

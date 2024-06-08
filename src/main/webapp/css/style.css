@@ -19,6 +19,18 @@
     font-size: small;
 }
 
+
+.container .userNotLogged{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: 100vh;
+}
+
+.centered {
+    text-align: center;
+}
+
 .navbar .d-flex .form-control{
     font-size: small;
     width: 100%;
